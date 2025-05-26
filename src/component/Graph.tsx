@@ -33,10 +33,10 @@ function Cell({ data }: { data: SajuCell }) {
     <div className="w-full flex flex-col items-center justify-center py-3">
       {data.value.split("\n").map((line, i) => (
         <div key={i} className="text-center">
-          {line}
-          <div className="text-xs text-gray-600">
+          <h2 className="font-bold">{line}</h2>
+          <p className="text-xs text-gray-600">
             {data.subValue?.split("\n")[i]}
-          </div>
+          </p>
         </div>
       ))}
     </div>
@@ -84,7 +84,7 @@ function Graph() {
                   rowIndex > 0 && "border-t"
                 )}
               >
-                <div className="text-sm">{row.title.text}</div>
+                <div className="text-sm font-bold">{row.title.text}</div>
                 <div className="text-xs text-gray-600">
                   ({row.title.subText})
                 </div>

@@ -30,10 +30,10 @@ export const sajuData: SajuRow[] = [
   {
     title: { text: "十星", subText: "십성" },
     cells: [
-      { value: "傷官", subValue: "상관", type: "normal" },
-      { value: "比肩", subValue: "비견", type: "normal" },
-      { value: "傷官", subValue: "상관", type: "normal" },
-      { value: "傷官", subValue: "상관", type: "normal" },
+      { value: "傷官", subValue: "(상관)", type: "normal" },
+      { value: "比肩", subValue: "(비견)", type: "normal" },
+      { value: "傷官", subValue: "(상관)", type: "normal" },
+      { value: "傷官", subValue: "(상관)", type: "normal" },
     ],
   },
   {
